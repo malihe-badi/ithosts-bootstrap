@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+:root {
+  --bg-footer-icon:#491f70;
+  --bg-footer-bottom: #1b043b;
+  --bg-footer:#200545;
+  --bg-vission: #2d1678;
+  --bg-services: #422b8f;
+  --bg-btn:#eb2b63;
+  --bg-gradient:linear-gradient(to right, #2e1779 0%, #0a0228 100%);
+  --bg-contact-form:#eff4f7; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+.icon {
+  width: 85px;
+  height: 85px;
+  background-color: var(--bs-danger);
+  color: var(--bs-white);
+  font-size: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.icon-big {
+  transform-origin: bottom center;
+  transform: scale(1.65); }
+
+.bg-footer {
+  background-color: var(--bg-footer); }
+
+.bg-footer-section {
+  background-color: var(--bg-footer-section); }
+
+.btn {
+  background-color: var(--bg-btn); }
+
+.bg-Contact-Info {
+  background-color: var(--bg-contact-form); }
